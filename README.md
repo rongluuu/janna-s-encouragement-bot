@@ -1,10 +1,10 @@
 # janna-s-encouragement-bot
- Feeling down? Talk to me and ill make you feel better! :)
+ Feeling down? Talk to me and i'll make you feel better! :)
  
- print("Title of program: Encouragement bot")
+ print("Title of program: Encouragement Bot")
 print()
 while True:
-  description = input("Could you describe how you feel in a sentence?")
+  description = input("Can you describe how you feel in a sentence?")
 
   list_of_words = description.split()
 
@@ -24,12 +24,12 @@ while True:
       counter += 1
     if each_word == "tired":
       feelings_list.append("tired")
-      encouragement_list.append("you are stronger than you think")
+      encouragement_list.append("you are stronger than you think, don't give up!")
       counter += 1
 
   if counter == 0:
     
-      output = "Sorry I don't really understand. Please use different words?"
+      output = "Sorry I don't really understand. Please use try something else?"
 
   elif counter == 1:
     
