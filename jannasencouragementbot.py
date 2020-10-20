@@ -12,15 +12,15 @@ while True:
   for each_word in list_of_words:
     
     if each_word == "sad":
-      feelings_list.append("sad")
+      feelings_list.append("dejected")
       encouragement_list.append("tomorrow will be a better day")
       counter += 1
     if each_word == "happy":
-      feelings_list.append("happy")
+      feelings_list.append("elated")
       encouragement_list.append("to keep smiling")
       counter += 1
     if each_word == "tired":
-      feelings_list.append("tired")
+      feelings_list.append("exhausted")
       encouragement_list.append("you are stronger than you think")
       counter += 1
 
